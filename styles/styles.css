@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-color: #121417;
+}
+
+.modal-principal {
+  background: -webkit-gradient(linear, left top, left bottom, from(#232a34), to(#161d27));
+  background: linear-gradient(#232a34, #161d27);
+  margin: 25% auto;
+  border-radius: 10px;
+  height: 306px;
+  width: 369px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 11px;
+}
+
+.modal-principal__icon {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #252d37;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50px;
+}
+
+.modal-principal__title {
+  color: white;
+}
+
+.modal-principal__text {
+  color: #7c8798;
+  font-size: 14px;
+}
+
+.modal-principal__notas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.modal-principal__notas div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #252d37;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #959eac;
+  cursor: pointer;
+}
+
+.modal-principal__notas div:hover {
+  color: white;
+  background-color: #fb7413;
+}
+
+.modal-principal__button {
+  background-color: #fb7413;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.modal-principal__button:hover {
+  cursor: pointer;
+  color: #fb7413;
+  background-color: white;
+}
+
+.modal-thankyou {
+  display: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(#232a34), to(#161d27));
+  background: linear-gradient(#232a34, #161d27);
+  margin: 25% auto;
+  border-radius: 10px;
+  height: 306px;
+  width: 369px;
+  padding: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.modal-thankyou__notas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #252d37;
+  border-radius: 15px;
+  color: #fb7413;
+  padding: 10px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.modal-thankyou__tittle {
+  color: white;
+}
+
+.modal-thankyou__text {
+  color: #7c8798;
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */
